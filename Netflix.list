@@ -1,19 +1,9 @@
-# NAME: Netflix
-# AUTHOR: blackmatrix7
-# GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-07 02:59:52
-# USER-AGENT: 1
-# DOMAIN-SUFFIX: 18
-# IP-CIDR: 20
-# TOTAL: 39
+# Netflix
+
+DOMAIN,netflix.com.edgesuite.net,🎬 Netflix
 DOMAIN-SUFFIX,fast.com,🎬 Netflix
 DOMAIN-SUFFIX,netflix.com,🎬 Netflix
 DOMAIN-SUFFIX,netflix.net,🎬 Netflix
-DOMAIN-SUFFIX,nflxext.com,🎬 Netflix
-DOMAIN-SUFFIX,nflximg.com,🎬 Netflix
-DOMAIN-SUFFIX,nflximg.net,🎬 Netflix
-DOMAIN-SUFFIX,nflxso.net,🎬 Netflix
-DOMAIN-SUFFIX,nflxvideo.net,🎬 Netflix
 DOMAIN-SUFFIX,netflixdnstest0.com,🎬 Netflix
 DOMAIN-SUFFIX,netflixdnstest1.com,🎬 Netflix
 DOMAIN-SUFFIX,netflixdnstest2.com,🎬 Netflix
@@ -24,6 +14,13 @@ DOMAIN-SUFFIX,netflixdnstest6.com,🎬 Netflix
 DOMAIN-SUFFIX,netflixdnstest7.com,🎬 Netflix
 DOMAIN-SUFFIX,netflixdnstest8.com,🎬 Netflix
 DOMAIN-SUFFIX,netflixdnstest9.com,🎬 Netflix
+DOMAIN-SUFFIX,nflxext.com,🎬 Netflix
+DOMAIN-SUFFIX,nflximg.com,🎬 Netflix
+DOMAIN-SUFFIX,nflximg.net,🎬 Netflix
+DOMAIN-SUFFIX,nflxso.net,🎬 Netflix
+DOMAIN-SUFFIX,nflxvideo.net,🎬 Netflix
+DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,🎬 Netflix
+DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎬 Netflix
 IP-CIDR,103.87.204.0/22,🎬 Netflix,no-resolve
 IP-CIDR,108.175.32.0/20,🎬 Netflix,no-resolve
 IP-CIDR,185.2.220.0/22,🎬 Netflix,no-resolve
@@ -44,4 +41,4 @@ IP-CIDR,64.120.128.0/17,🎬 Netflix,no-resolve
 IP-CIDR,66.197.128.0/17,🎬 Netflix,no-resolve
 IP-CIDR,69.53.224.0/19,🎬 Netflix,no-resolve
 IP-CIDR,8.41.4.0/24,🎬 Netflix,no-resolve
-USER-AGENT,argo*
+USER-AGENT,Argo*,🎬 Netflix
